@@ -20,8 +20,9 @@ class Program
         int day = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
         //Process: Function to tell the user to restart if the number is more than 7
-        if (day > 7) {
-           Console.WriteLine("You have input something incorrectly. Please relaunch code.");
+        if (day > 7)
+        {
+            Console.WriteLine("You have input something incorrectly. Please relaunch code.");
         }
         else if ((age > 12 && age < 21) && (day != 6 && day != 7))
         {
